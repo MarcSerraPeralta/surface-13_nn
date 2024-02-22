@@ -1,0 +1,3 @@
+qrennd @ git+https://github.com/BorisVarbanov/qrennd@experimental_data
+iq_readout @ git+https://github.com/MarcSerraPeralta/iq_readout@surface_13
+tensorflow>=2.4.1
