@@ -9,7 +9,7 @@ import os
 import random
 
 from delft_data.process_data import process_data
-
+from qrennd import Layout
 
 # Load raw data
 
@@ -230,6 +230,8 @@ for partition in PARTITIONS:
 
 TOTAL_SHOTS = {k: 0 for k in PARTITIONS}
 
+layout = Layout.from_yaml(DATA_DIR / "d3_rotated_layout_surface-13Z.yaml")
+
 for folder in FOLDERS:
     print(folder, end="\r")
     dataset = xr.load_dataset(OUTPUT_DIR / "all" / folder / "measurements.nc")
@@ -284,6 +286,12 @@ for folder in FOLDERS:
 
     # ASSERTIONS
     assert used_shots.all()
+
+    # copy layout file in config directory
+    for split in ["train", "dev", "test"]:
+        CONFIG_PATH = OUTPUT_DIR / split / "config"
+        CONFIG_PATH.mkdir(exist_ok=True)
+        layout.to_yaml(CONFIG_PATH / "d3_rotated_layout_surface-13Z.yaml")
 
 
 print("\nTOTAL NUMBER OF SHOTS")
