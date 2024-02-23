@@ -288,10 +288,9 @@ for folder in FOLDERS:
     assert used_shots.all()
 
     # copy layout file in config directory
-    for split in ["train", "dev", "test"]:
-        CONFIG_PATH = OUTPUT_DIR / split / "config"
-        CONFIG_PATH.mkdir(exist_ok=True)
-        layout.to_yaml(CONFIG_PATH / "d3_rotated_layout_surface-13Z.yaml")
+    CONFIG_PATH = OUTPUT_DIR / "config"
+    CONFIG_PATH.mkdir(exist_ok=True)
+    layout.to_yaml(CONFIG_PATH / "d3_rotated_layout_surface-13Z.yaml")
 
 
 print("\nTOTAL NUMBER OF SHOTS")
