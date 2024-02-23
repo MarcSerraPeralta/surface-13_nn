@@ -9,22 +9,12 @@ OUTPUT_DIR = pathlib.Path("nn_data")
 DATASET = "all"
 
 PARTITIONS = {
-    "test": 5_000,
-    "train": 0.90,
-    "dev": None,
-}  # num_shots / (memory experiment * data_init)
+    "test": 5_000, # number of shots reserved for testing
+    "train": 0.90, # percentage of the remaining shots
+    "dev": None, # all the remaining shots
+}  
 
-TEST_NON_LEAKAGED = False
-
-FOLDERS = [
-    f
-    for f in sorted(os.listdir(OUTPUT_DIR / DATASET))
-    if "IQ" in f  # ("_LRU" in f) and ("_PS" in f)
-]
-
-# Using "train" = 0.8 because the average number of shots is 27k but there is one run that has 21k,
-# therefore using "train" = 18k breaks the splitting (due to using 5k for the test dataset).
-
+FOLDERS = sorted(os.listdir(OUTPUT_DIR / DATASET))
 
 ##################################################
 
@@ -45,12 +35,6 @@ for folder in FOLDERS:
 
     # TEST
     non_used_idx = np.nonzero(~used_shots)[0]
-    if TEST_NON_LEAKAGED:
-        # test does not contain leakaged shots
-        leakage = xr.load_dataarray(OUTPUT_DIR / DATASET / folder / "leakage.nc")
-        leakage = leakage.values
-        non_leakage_idx = np.nonzero(~leakage)[0]
-        non_used_idx = non_leakage_idx
     assert len(non_used_idx) >= PARTITIONS["test"]
     np.random.shuffle(non_used_idx)
     test_idx = non_used_idx[: PARTITIONS["test"]]
@@ -96,8 +80,6 @@ for folder in FOLDERS:
 
     # ASSERTIONS
     assert used_shots.all()
-    if TEST_NON_LEAKAGED:
-        assert set(test_idx).issubset(set(non_leakage_idx))
 
 
 print("\nTOTAL NUMBER OF SHOTS")
