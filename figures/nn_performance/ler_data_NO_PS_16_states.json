@@ -1,0 +1,898 @@
+{
+ "[]": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 92210,
+    "Fails Hard Info": 54,
+    "Fails Soft Info": 110
+   },
+   "2": {
+    "Shots": 98504,
+    "Fails Hard Info": 6559,
+    "Fails Soft Info": 6102
+   },
+   "4": {
+    "Shots": 94144,
+    "Fails Hard Info": 13806,
+    "Fails Soft Info": 12787
+   },
+   "8": {
+    "Shots": 93760,
+    "Fails Hard Info": 25435,
+    "Fails Soft Info": 23870
+   },
+   "16": {
+    "Shots": 94030,
+    "Fails Hard Info": 38751,
+    "Fails Soft Info": 37191
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 92210,
+    "Fails Hard Info": 55,
+    "Fails Soft Info": 85
+   },
+   "2": {
+    "Shots": 98504,
+    "Fails Hard Info": 6429,
+    "Fails Soft Info": 5910
+   },
+   "4": {
+    "Shots": 94144,
+    "Fails Hard Info": 13660,
+    "Fails Soft Info": 12537
+   },
+   "8": {
+    "Shots": 93760,
+    "Fails Hard Info": 25314,
+    "Fails Soft Info": 23679
+   },
+   "16": {
+    "Shots": 94030,
+    "Fails Hard Info": 38613,
+    "Fails Soft Info": 37054
+   }
+  }
+ },
+ "['D1', 'D2']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 90688,
+    "Fails Hard Info": 279,
+    "Fails Soft Info": 305
+   },
+   "2": {
+    "Shots": 96585,
+    "Fails Hard Info": 5662,
+    "Fails Soft Info": 4954
+   },
+   "4": {
+    "Shots": 94571,
+    "Fails Hard Info": 13434,
+    "Fails Soft Info": 11711
+   },
+   "8": {
+    "Shots": 94573,
+    "Fails Hard Info": 25931,
+    "Fails Soft Info": 24265
+   },
+   "16": {
+    "Shots": 94104,
+    "Fails Hard Info": 39574,
+    "Fails Soft Info": 38336
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 90688,
+    "Fails Hard Info": 285,
+    "Fails Soft Info": 338
+   },
+   "2": {
+    "Shots": 96585,
+    "Fails Hard Info": 5647,
+    "Fails Soft Info": 4841
+   },
+   "4": {
+    "Shots": 94571,
+    "Fails Hard Info": 13473,
+    "Fails Soft Info": 11911
+   },
+   "8": {
+    "Shots": 94573,
+    "Fails Hard Info": 25771,
+    "Fails Soft Info": 24148
+   },
+   "16": {
+    "Shots": 94104,
+    "Fails Hard Info": 39587,
+    "Fails Soft Info": 38311
+   }
+  }
+ },
+ "['D8', 'D9']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 90102,
+    "Fails Hard Info": 231,
+    "Fails Soft Info": 361
+   },
+   "2": {
+    "Shots": 94799,
+    "Fails Hard Info": 5436,
+    "Fails Soft Info": 5097
+   },
+   "4": {
+    "Shots": 94657,
+    "Fails Hard Info": 12889,
+    "Fails Soft Info": 11801
+   },
+   "8": {
+    "Shots": 94418,
+    "Fails Hard Info": 24795,
+    "Fails Soft Info": 23274
+   },
+   "16": {
+    "Shots": 94233,
+    "Fails Hard Info": 38287,
+    "Fails Soft Info": 37042
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 90102,
+    "Fails Hard Info": 234,
+    "Fails Soft Info": 204
+   },
+   "2": {
+    "Shots": 94799,
+    "Fails Hard Info": 5319,
+    "Fails Soft Info": 4985
+   },
+   "4": {
+    "Shots": 94657,
+    "Fails Hard Info": 12649,
+    "Fails Soft Info": 11662
+   },
+   "8": {
+    "Shots": 94418,
+    "Fails Hard Info": 24563,
+    "Fails Soft Info": 23064
+   },
+   "16": {
+    "Shots": 94233,
+    "Fails Hard Info": 38312,
+    "Fails Soft Info": 36872
+   }
+  }
+ },
+ "['D2', 'D3', 'D5', 'D6']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 91490,
+    "Fails Hard Info": 882,
+    "Fails Soft Info": 1157
+   },
+   "2": {
+    "Shots": 98910,
+    "Fails Hard Info": 4514,
+    "Fails Soft Info": 3542
+   },
+   "4": {
+    "Shots": 94394,
+    "Fails Hard Info": 12111,
+    "Fails Soft Info": 9733
+   },
+   "8": {
+    "Shots": 94481,
+    "Fails Hard Info": 24375,
+    "Fails Soft Info": 22452
+   },
+   "16": {
+    "Shots": 94673,
+    "Fails Hard Info": 38092,
+    "Fails Soft Info": 37164
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 91490,
+    "Fails Hard Info": 879,
+    "Fails Soft Info": 991
+   },
+   "2": {
+    "Shots": 98910,
+    "Fails Hard Info": 4544,
+    "Fails Soft Info": 3915
+   },
+   "4": {
+    "Shots": 94394,
+    "Fails Hard Info": 11927,
+    "Fails Soft Info": 10590
+   },
+   "8": {
+    "Shots": 94481,
+    "Fails Hard Info": 24215,
+    "Fails Soft Info": 22570
+   },
+   "16": {
+    "Shots": 94673,
+    "Fails Hard Info": 38021,
+    "Fails Soft Info": 37017
+   }
+  }
+ },
+ "['D1', 'D2', 'D4', 'D5', 'D7', 'D8']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 93632,
+    "Fails Hard Info": 2374,
+    "Fails Soft Info": 2230
+   },
+   "2": {
+    "Shots": 95921,
+    "Fails Hard Info": 5448,
+    "Fails Soft Info": 4571
+   },
+   "4": {
+    "Shots": 97824,
+    "Fails Hard Info": 14782,
+    "Fails Soft Info": 13153
+   },
+   "8": {
+    "Shots": 97990,
+    "Fails Hard Info": 28171,
+    "Fails Soft Info": 26570
+   },
+   "16": {
+    "Shots": 97330,
+    "Fails Hard Info": 41862,
+    "Fails Soft Info": 40926
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 93632,
+    "Fails Hard Info": 2301,
+    "Fails Soft Info": 2394
+   },
+   "2": {
+    "Shots": 95921,
+    "Fails Hard Info": 5492,
+    "Fails Soft Info": 4625
+   },
+   "4": {
+    "Shots": 97824,
+    "Fails Hard Info": 14833,
+    "Fails Soft Info": 13290
+   },
+   "8": {
+    "Shots": 97990,
+    "Fails Hard Info": 28133,
+    "Fails Soft Info": 27147
+   },
+   "16": {
+    "Shots": 97330,
+    "Fails Hard Info": 41853,
+    "Fails Soft Info": 40908
+   }
+  }
+ },
+ "['D1', 'D2', 'D4', 'D5', 'D7', 'D9']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 92619,
+    "Fails Hard Info": 2645,
+    "Fails Soft Info": 2423
+   },
+   "2": {
+    "Shots": 94272,
+    "Fails Hard Info": 5291,
+    "Fails Soft Info": 4785
+   },
+   "4": {
+    "Shots": 97308,
+    "Fails Hard Info": 14423,
+    "Fails Soft Info": 12981
+   },
+   "8": {
+    "Shots": 97647,
+    "Fails Hard Info": 27491,
+    "Fails Soft Info": 26178
+   },
+   "16": {
+    "Shots": 97027,
+    "Fails Hard Info": 40706,
+    "Fails Soft Info": 40319
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 92619,
+    "Fails Hard Info": 2549,
+    "Fails Soft Info": 2411
+   },
+   "2": {
+    "Shots": 94272,
+    "Fails Hard Info": 5374,
+    "Fails Soft Info": 4869
+   },
+   "4": {
+    "Shots": 97308,
+    "Fails Hard Info": 14356,
+    "Fails Soft Info": 13385
+   },
+   "8": {
+    "Shots": 97647,
+    "Fails Hard Info": 27490,
+    "Fails Soft Info": 26230
+   },
+   "16": {
+    "Shots": 97027,
+    "Fails Hard Info": 40572,
+    "Fails Soft Info": 40175
+   }
+  }
+ },
+ "['D1', 'D2', 'D8', 'D9']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 91780,
+    "Fails Hard Info": 914,
+    "Fails Soft Info": 1138
+   },
+   "2": {
+    "Shots": 95019,
+    "Fails Hard Info": 4480,
+    "Fails Soft Info": 3967
+   },
+   "4": {
+    "Shots": 97278,
+    "Fails Hard Info": 12204,
+    "Fails Soft Info": 10550
+   },
+   "8": {
+    "Shots": 97008,
+    "Fails Hard Info": 24616,
+    "Fails Soft Info": 23031
+   },
+   "16": {
+    "Shots": 97254,
+    "Fails Hard Info": 38711,
+    "Fails Soft Info": 37502
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 91780,
+    "Fails Hard Info": 871,
+    "Fails Soft Info": 796
+   },
+   "2": {
+    "Shots": 95019,
+    "Fails Hard Info": 4464,
+    "Fails Soft Info": 3789
+   },
+   "4": {
+    "Shots": 97278,
+    "Fails Hard Info": 12169,
+    "Fails Soft Info": 10634
+   },
+   "8": {
+    "Shots": 97008,
+    "Fails Hard Info": 24553,
+    "Fails Soft Info": 22989
+   },
+   "16": {
+    "Shots": 97254,
+    "Fails Hard Info": 38759,
+    "Fails Soft Info": 37535
+   }
+  }
+ },
+ "['D1', 'D3', 'D4', 'D6', 'D7', 'D8']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 93410,
+    "Fails Hard Info": 1684,
+    "Fails Soft Info": 1537
+   },
+   "2": {
+    "Shots": 95571,
+    "Fails Hard Info": 5786,
+    "Fails Soft Info": 5077
+   },
+   "4": {
+    "Shots": 97130,
+    "Fails Hard Info": 15124,
+    "Fails Soft Info": 13887
+   },
+   "8": {
+    "Shots": 97008,
+    "Fails Hard Info": 28597,
+    "Fails Soft Info": 27671
+   },
+   "16": {
+    "Shots": 96439,
+    "Fails Hard Info": 41309,
+    "Fails Soft Info": 41460
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 93410,
+    "Fails Hard Info": 1650,
+    "Fails Soft Info": 1436
+   },
+   "2": {
+    "Shots": 95571,
+    "Fails Hard Info": 5788,
+    "Fails Soft Info": 5080
+   },
+   "4": {
+    "Shots": 97130,
+    "Fails Hard Info": 15230,
+    "Fails Soft Info": 14275
+   },
+   "8": {
+    "Shots": 97008,
+    "Fails Hard Info": 28601,
+    "Fails Soft Info": 27671
+   },
+   "16": {
+    "Shots": 96439,
+    "Fails Hard Info": 41279,
+    "Fails Soft Info": 41342
+   }
+  }
+ },
+ "['D1', 'D3', 'D4', 'D6', 'D7', 'D9']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 94165,
+    "Fails Hard Info": 1750,
+    "Fails Soft Info": 1658
+   },
+   "2": {
+    "Shots": 95658,
+    "Fails Hard Info": 5022,
+    "Fails Soft Info": 4598
+   },
+   "4": {
+    "Shots": 98765,
+    "Fails Hard Info": 13551,
+    "Fails Soft Info": 12802
+   },
+   "8": {
+    "Shots": 98669,
+    "Fails Hard Info": 26753,
+    "Fails Soft Info": 26002
+   },
+   "16": {
+    "Shots": 97965,
+    "Fails Hard Info": 40165,
+    "Fails Soft Info": 39579
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 94165,
+    "Fails Hard Info": 1723,
+    "Fails Soft Info": 1551
+   },
+   "2": {
+    "Shots": 95658,
+    "Fails Hard Info": 5040,
+    "Fails Soft Info": 4656
+   },
+   "4": {
+    "Shots": 98765,
+    "Fails Hard Info": 13548,
+    "Fails Soft Info": 13102
+   },
+   "8": {
+    "Shots": 98669,
+    "Fails Hard Info": 26559,
+    "Fails Soft Info": 25769
+   },
+   "16": {
+    "Shots": 97965,
+    "Fails Hard Info": 40139,
+    "Fails Soft Info": 39623
+   }
+  }
+ },
+ "['D1', 'D3', 'D5', 'D6', 'D8', 'D9']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 92246,
+    "Fails Hard Info": 2256,
+    "Fails Soft Info": 2011
+   },
+   "2": {
+    "Shots": 95139,
+    "Fails Hard Info": 5700,
+    "Fails Soft Info": 5070
+   },
+   "4": {
+    "Shots": 97142,
+    "Fails Hard Info": 14622,
+    "Fails Soft Info": 13213
+   },
+   "8": {
+    "Shots": 97031,
+    "Fails Hard Info": 27415,
+    "Fails Soft Info": 26437
+   },
+   "16": {
+    "Shots": 96688,
+    "Fails Hard Info": 40862,
+    "Fails Soft Info": 40230
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 92246,
+    "Fails Hard Info": 2282,
+    "Fails Soft Info": 2070
+   },
+   "2": {
+    "Shots": 95139,
+    "Fails Hard Info": 5577,
+    "Fails Soft Info": 5288
+   },
+   "4": {
+    "Shots": 97142,
+    "Fails Hard Info": 14439,
+    "Fails Soft Info": 13604
+   },
+   "8": {
+    "Shots": 97031,
+    "Fails Hard Info": 27185,
+    "Fails Soft Info": 26170
+   },
+   "16": {
+    "Shots": 96688,
+    "Fails Hard Info": 40656,
+    "Fails Soft Info": 39560
+   }
+  }
+ },
+ "['D1', 'D3', 'D5', 'D6']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 90547,
+    "Fails Hard Info": 1448,
+    "Fails Soft Info": 2224
+   },
+   "2": {
+    "Shots": 95233,
+    "Fails Hard Info": 5825,
+    "Fails Soft Info": 4778
+   },
+   "4": {
+    "Shots": 93714,
+    "Fails Hard Info": 14135,
+    "Fails Soft Info": 12343
+   },
+   "8": {
+    "Shots": 93761,
+    "Fails Hard Info": 26744,
+    "Fails Soft Info": 25792
+   },
+   "16": {
+    "Shots": 93355,
+    "Fails Hard Info": 39857,
+    "Fails Soft Info": 39470
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 90547,
+    "Fails Hard Info": 1436,
+    "Fails Soft Info": 1876
+   },
+   "2": {
+    "Shots": 95233,
+    "Fails Hard Info": 5565,
+    "Fails Soft Info": 5001
+   },
+   "4": {
+    "Shots": 93714,
+    "Fails Hard Info": 13989,
+    "Fails Soft Info": 12707
+   },
+   "8": {
+    "Shots": 93761,
+    "Fails Hard Info": 26638,
+    "Fails Soft Info": 25487
+   },
+   "16": {
+    "Shots": 93355,
+    "Fails Hard Info": 39846,
+    "Fails Soft Info": 38748
+   }
+  }
+ },
+ "['D2', 'D3', 'D4', 'D6', 'D7', 'D8']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 89143,
+    "Fails Hard Info": 1779,
+    "Fails Soft Info": 1633
+   },
+   "2": {
+    "Shots": 93710,
+    "Fails Hard Info": 4055,
+    "Fails Soft Info": 3784
+   },
+   "4": {
+    "Shots": 92545,
+    "Fails Hard Info": 11069,
+    "Fails Soft Info": 10002
+   },
+   "8": {
+    "Shots": 92274,
+    "Fails Hard Info": 23112,
+    "Fails Soft Info": 21974
+   },
+   "16": {
+    "Shots": 92497,
+    "Fails Hard Info": 36941,
+    "Fails Soft Info": 36038
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 89143,
+    "Fails Hard Info": 1731,
+    "Fails Soft Info": 1565
+   },
+   "2": {
+    "Shots": 93710,
+    "Fails Hard Info": 4188,
+    "Fails Soft Info": 3425
+   },
+   "4": {
+    "Shots": 92545,
+    "Fails Hard Info": 11104,
+    "Fails Soft Info": 10048
+   },
+   "8": {
+    "Shots": 92274,
+    "Fails Hard Info": 23065,
+    "Fails Soft Info": 21937
+   },
+   "16": {
+    "Shots": 92497,
+    "Fails Hard Info": 36863,
+    "Fails Soft Info": 35924
+   }
+  }
+ },
+ "['D2', 'D3', 'D4', 'D6', 'D7', 'D9']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 90894,
+    "Fails Hard Info": 2105,
+    "Fails Soft Info": 1926
+   },
+   "2": {
+    "Shots": 94269,
+    "Fails Hard Info": 4993,
+    "Fails Soft Info": 4247
+   },
+   "4": {
+    "Shots": 96281,
+    "Fails Hard Info": 13400,
+    "Fails Soft Info": 12056
+   },
+   "8": {
+    "Shots": 96111,
+    "Fails Hard Info": 26314,
+    "Fails Soft Info": 25560
+   },
+   "16": {
+    "Shots": 96015,
+    "Fails Hard Info": 39865,
+    "Fails Soft Info": 39201
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 90894,
+    "Fails Hard Info": 2029,
+    "Fails Soft Info": 1832
+   },
+   "2": {
+    "Shots": 94269,
+    "Fails Hard Info": 5088,
+    "Fails Soft Info": 4547
+   },
+   "4": {
+    "Shots": 96281,
+    "Fails Hard Info": 13470,
+    "Fails Soft Info": 12908
+   },
+   "8": {
+    "Shots": 96111,
+    "Fails Hard Info": 26336,
+    "Fails Soft Info": 25728
+   },
+   "16": {
+    "Shots": 96015,
+    "Fails Hard Info": 39858,
+    "Fails Soft Info": 39214
+   }
+  }
+ },
+ "['D2', 'D3', 'D5', 'D6', 'D8', 'D9']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 93903,
+    "Fails Hard Info": 3123,
+    "Fails Soft Info": 2923
+   },
+   "2": {
+    "Shots": 97115,
+    "Fails Hard Info": 5115,
+    "Fails Soft Info": 4391
+   },
+   "4": {
+    "Shots": 96809,
+    "Fails Hard Info": 14020,
+    "Fails Soft Info": 12612
+   },
+   "8": {
+    "Shots": 96745,
+    "Fails Hard Info": 27598,
+    "Fails Soft Info": 25832
+   },
+   "16": {
+    "Shots": 96735,
+    "Fails Hard Info": 41107,
+    "Fails Soft Info": 40188
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 93903,
+    "Fails Hard Info": 3069,
+    "Fails Soft Info": 2791
+   },
+   "2": {
+    "Shots": 97115,
+    "Fails Hard Info": 5047,
+    "Fails Soft Info": 4575
+   },
+   "4": {
+    "Shots": 96809,
+    "Fails Hard Info": 13997,
+    "Fails Soft Info": 12903
+   },
+   "8": {
+    "Shots": 96745,
+    "Fails Hard Info": 27567,
+    "Fails Soft Info": 26255
+   },
+   "16": {
+    "Shots": 96735,
+    "Fails Hard Info": 40985,
+    "Fails Soft Info": 40029
+   }
+  }
+ },
+ "['D4', 'D5', 'D7', 'D8']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 89542,
+    "Fails Hard Info": 570,
+    "Fails Soft Info": 476
+   },
+   "2": {
+    "Shots": 94854,
+    "Fails Hard Info": 6197,
+    "Fails Soft Info": 5177
+   },
+   "4": {
+    "Shots": 93042,
+    "Fails Hard Info": 13408,
+    "Fails Soft Info": 12087
+   },
+   "8": {
+    "Shots": 92938,
+    "Fails Hard Info": 25767,
+    "Fails Soft Info": 24496
+   },
+   "16": {
+    "Shots": 93097,
+    "Fails Hard Info": 38353,
+    "Fails Soft Info": 37323
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 89542,
+    "Fails Hard Info": 598,
+    "Fails Soft Info": 465
+   },
+   "2": {
+    "Shots": 94854,
+    "Fails Hard Info": 6258,
+    "Fails Soft Info": 5680
+   },
+   "4": {
+    "Shots": 93042,
+    "Fails Hard Info": 13403,
+    "Fails Soft Info": 12526
+   },
+   "8": {
+    "Shots": 92938,
+    "Fails Hard Info": 25677,
+    "Fails Soft Info": 24319
+   },
+   "16": {
+    "Shots": 93097,
+    "Fails Hard Info": 38367,
+    "Fails Soft Info": 37291
+   }
+  }
+ },
+ "['D4', 'D5', 'D7', 'D9']": {
+  "clf_gauss_1D": {
+   "1": {
+    "Shots": 92307,
+    "Fails Hard Info": 584,
+    "Fails Soft Info": 484
+   },
+   "2": {
+    "Shots": 96160,
+    "Fails Hard Info": 4687,
+    "Fails Soft Info": 4049
+   },
+   "4": {
+    "Shots": 96373,
+    "Fails Hard Info": 12076,
+    "Fails Soft Info": 10811
+   },
+   "8": {
+    "Shots": 96323,
+    "Fails Hard Info": 24524,
+    "Fails Soft Info": 23227
+   },
+   "16": {
+    "Shots": 96290,
+    "Fails Hard Info": 38278,
+    "Fails Soft Info": 37349
+   }
+  },
+  "clf_gauss_2D": {
+   "1": {
+    "Shots": 92307,
+    "Fails Hard Info": 586,
+    "Fails Soft Info": 529
+   },
+   "2": {
+    "Shots": 96160,
+    "Fails Hard Info": 4819,
+    "Fails Soft Info": 4108
+   },
+   "4": {
+    "Shots": 96373,
+    "Fails Hard Info": 12137,
+    "Fails Soft Info": 11198
+   },
+   "8": {
+    "Shots": 96323,
+    "Fails Hard Info": 24382,
+    "Fails Soft Info": 23207
+   },
+   "16": {
+    "Shots": 96290,
+    "Fails Hard Info": 38158,
+    "Fails Soft Info": 37116
+   }
+  }
+ }
+}
