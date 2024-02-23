@@ -21,7 +21,7 @@ MEAS_TYPE = float
 ROUNDS = ["1_R", "2_R", "4_R", "8_R", "16_R"]
 
 OUTPUT_PREFIX = "rot_surf-code-13_DiCarlo_qubit_IQ_leak_bZ_s{init}_r{rounds}"
-OUTPUT_DIR = pathlib.Path("nn_data")
+OUTPUT_DIR = pathlib.Path("nn_data") / "20231219-rot_surf-code-13_DiCarlo_V3_5_IQ"
 
 PARTITIONS = {
     "test": 5_000,  # number of shots reserved for testing
