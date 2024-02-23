@@ -1,0 +1,159 @@
+dataset:
+  dev:
+    rounds:
+    - 1
+    - 2
+    - 4
+    - 8
+    - 16
+    shots: null
+    states:
+    - '000000000'
+    - '000000011'
+    - '000110101'
+    - '000110110'
+    - '011011000'
+    - '011011011'
+    - '011101101'
+    - '011101110'
+    - '101011000'
+    - '101011011'
+    - '101101101'
+    - '101101110'
+    - '110000000'
+    - '110000011'
+    - '110110101'
+    - '110110110'
+  digitization:
+    anc: false
+    data: true
+  folder_format_name: rot_surf-code-13_DiCarlo_qubit_IQ_leak_b{basis}_s{state}_r{num_rounds}
+  input: IQ
+  leakage:
+    anc: true
+    data: false
+  rot_basis: false
+  test:
+    rounds:
+    - 1
+    - 2
+    - 4
+    - 8
+    - 16
+    shots: 5000
+    states:
+    - '000000000'
+    - '000000011'
+    - '000110101'
+    - '000110110'
+    - '011011000'
+    - '011011011'
+    - '011101101'
+    - '011101110'
+    - '101011000'
+    - '101011011'
+    - '101101101'
+    - '101101110'
+    - '110000000'
+    - '110000011'
+    - '110110101'
+    - '110110110'
+  train:
+    rounds:
+    - 1
+    - 2
+    - 4
+    - 8
+    - 16
+    shots: null
+    states:
+    - '000000000'
+    - '000000011'
+    - '000110101'
+    - '000110110'
+    - '011011000'
+    - '011011011'
+    - '011101101'
+    - '011101110'
+    - '101011000'
+    - '101011011'
+    - '101101101'
+    - '101101110'
+    - '110000000'
+    - '110000011'
+    - '110110101'
+    - '110110110'
+metadata:
+  experiment: 20231219-rot_surf-code-13_DiCarlo_V3_5_IQ
+  init_weights: null
+  run: 20231224-011815_encoder100x2_lstm100x3_eval100_64_dr0-20-all_lr0-0002_SI-anc_leak
+  seed: null
+model:
+  LSTM:
+    dropout_rates:
+    - 0.2
+    - 0.2
+    - 0.2
+    units:
+    - 100
+    - 100
+    - 100
+  aux_eval:
+    dropout_rates:
+    - 0.2
+    - null
+    l2_factor: null
+    units:
+    - 100
+    - 1
+  encoder_eval:
+    dropout_rates:
+    - null
+    - 0.2
+    l2_factor: null
+    units:
+    - 100
+    - 100
+  encoder_rec:
+    dropout_rates:
+    - null
+    - 0.2
+    l2_factor: null
+    units:
+    - 100
+    - 100
+  main_eval:
+    dropout_rates:
+    - 0.2
+    - null
+    l2_factor: null
+    units:
+    - 100
+    - 1
+  type: Encoder_LSTM
+train:
+  batch_size: 64
+  callbacks:
+    checkpoint:
+      mode: min
+      monitor: val_loss
+      save_best_only: true
+    csv_log:
+      append: false
+    early_stop:
+      min_delta: 0
+      mode: min
+      monitor: val_loss
+      patience: 50
+  epochs: 500
+  loss:
+    aux_output: binary_crossentropy
+    main_output: binary_crossentropy
+  loss_weights:
+    aux_output: 0.5
+    main_output: 1.0
+  metrics:
+    aux_output: accuracy
+    main_output: accuracy
+  optimizer:
+    learning_rate: 0.0002
