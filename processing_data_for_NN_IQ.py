@@ -15,11 +15,8 @@ from delft_data.process_data import process_data
 
 DATA_DIR = pathlib.Path("delft_data")
 
-FILE_NAMES = [
-    "Raw_data_dict_[]_V3_5.npy"
-]  # [f for f in os.listdir(DATA_DIR) if "Raw_data_dict_" in f]
+FILE_NAMES = [f for f in os.listdir(DATA_DIR) if "Raw_data_dict_" in f]
 
-LRU_ACTIVE = False
 MEAS_TYPE = float
 ROUNDS = ["1_R", "2_R", "4_R", "8_R", "16_R"]
 
@@ -39,9 +36,8 @@ for filename in FILE_NAMES:
 
     proc_data_dict = process_data(raw_data_dict)
 
-    _lru = 1 if LRU_ACTIVE else 0
-    DICARLO_DATA = proc_data_dict["Shots_exp"][_lru]
-    DICARLO_DATA_LEAKAGE = proc_data_dict["Shots_qutrit"][_lru]
+    DICARLO_DATA = proc_data_dict["Shots_exp"][0]
+    DICARLO_DATA_LEAKAGE = proc_data_dict["Shots_qutrit"][0]
 
     print("Formatting data to xarray... ", end="")
 
@@ -105,7 +101,7 @@ for filename in FILE_NAMES:
 
         # leakage post selection of the shots
         post_selection_leakage = np.isnan(
-            proc_data_dict["Shots_qubit_ps"][_lru]["D1"][rounds][f"round {rounds_int}"]
+            proc_data_dict["Shots_qubit_ps"][0]["D1"][rounds][f"round {rounds_int}"]
         )
 
         # GET SOFT INFORMATION PARAMETERS
@@ -193,7 +189,6 @@ for filename in FILE_NAMES:
                 iq=["I", "Q"],
             ),
             attrs=dict(
-                LRU_active=int(LRU_ACTIVE),
                 data_type="Shots_exp",
                 pdf_model="simple_1d_gaussian",
             ),
